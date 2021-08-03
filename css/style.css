@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+/* TOPO */
+header {
+    background-color: #FF9F9F;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+}
+
+#logo-container {
+    width: fit-content;
+    height: 6rem;
+    padding-left: 12.5%;
+}
+
+h1 {
+    color: #5B4646;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+    letter-spacing: 1px;
+    text-align: left;
+}
+/* TOPO > Navbar */
+
+nav {padding-right: 12.5%;}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    padding-left: 5vw;
+    height: 6rem;
+    line-height: 5.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #5B4646;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+/* PRINCIPAL */
+main {
+    color: #101214;
+    padding-top: 7rem;
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+/* PRINCIPAL > Apresentação */
+#introduction {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    padding-bottom: 7rem;
+}
+
+#introduction img {padding-bottom: 1rem;}
+
+#introduction p {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 4rem;
+    height: 50vh;
+}
+
+span {font-style: italic;}
+
+/* PRINCIPAL > Seção Portifólio */
+
+#sec-portifolio{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    height: 240vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* PRINCIPAL > Seção Potifólio > imagens portifólio */
+.img-portifolio-1,
+.img-portifolio-2,
+.img-portifolio-3,
+.img-portifolio-4,
+.img-portifolio-5 {
+    height: 48vh;
+    padding: 8vh;
+}
+
+.img-portifolio-1 {background-color: #DBECFF;}
+.img-portifolio-2 {background-color: #FFEFD7;}
+.img-portifolio-3 {background-color: #D6F3F3;}
+.img-portifolio-4 {background-color: #DBECFF;}
+.img-portifolio-5{ background-color: #CBD7E4;}
+
+/* PRINCIPAL > Seção Potifólio > imagens portifólio > Legendas de imagens */
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+#sec-portifolio div p {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1rem;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+/* PRINCIPAL > Seção Profile */
+#sec-profile {
+    background-color: #FF9F9F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 105vh;
+}
+
+/* PRINCIPAL > Seção Profile > Imagem de perfil */
+
+#img-profile {
+    margin-left: 10%;
+    height: 75vh;
+    border-radius: 50%;
+}
+
+/* PRINCIPAL > Seção Profile > Texto */
+
+#txt-prof-container {
+    height: 75vh;
+    margin-right: 10%;
+    padding-left: 3vw;
+    display: block;
+}
+
+#txt-prof-container h2 {
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+
+#txt-prof-container p {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 1p;
+}
+
+/* PRINCIPAL > Seção Habilidades */
+#sec-habilidades {
+    padding-top: 12vh;
+    background-color: #FFFFFF;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    width: 100%;
+    height: 105vh;
+}
+
+/* PRINCIPAL > Seção Habilidades > Título e Lista */
+#sec-habilidades h2{
+    font-size: 5rem;
+    padding-bottom: 5rem;
+}
+
+#lista-habilidades {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+/* PRINCIPAL > Seção Contato */
+#sec-contato {
+    padding-top: 12vh;
+    background-color: #FF9F9F;
+    width: 100%;
+    height: 118vh;
+    display: block;
+}
+
+/* PRINCIPAL > Seção Contato > T[itulo */
+#sec-contato h2 {
+    font-size: 5rem;
+    padding-bottom: 4rem;
+    text-align: left;
+}
+
+/* PRINCIPAL > Seção Contato > Formulario*/
+#form-container {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    font-size: 2rem;
+    font-weight: 500px;
+    line-height: 3rem;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.campo-form {padding-bottom: 0.5rem}
+
+input {
+    height: 3rem;
+}
+
+textarea {height: 16rem;}
+
+input, textarea {
+    border: solid 3px #CCCCCC;
+    width: 720px;
+}
